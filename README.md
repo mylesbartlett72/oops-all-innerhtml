@@ -1,5 +1,5 @@
 # Oops!  All InnerHTML!
-Making a mockery of Securly for Edge since 2023
+Making a mockery of Securly for Edge (and Securly for Chromebooks) since 2023
 
 ## Give me the exploit!
 
