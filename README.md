@@ -37,30 +37,57 @@ Also because I believe that students deserve privacy, not telescreens.
 ## Answers to other inevitable questions
 
 Q: It's not working!
+
 A: Ensure you followed all the instructions.  It also may have been patched.
 
+-----
+
 Q: I get a page saying `Failed to detect extension!` after doing step 2
+
 A: Either:
+
 Securly may have changed their extension code and the file that the autodetection page relies upon to fingerprint the extension no longer exists.  Click the relevant button for your extension, and continue with step 3
+
 Or:
+
 Securly does not exist (yay!)
+
 Or:
+
 Securly is acting through a different method
 
+-----
+
 Q: I get a popup message from Chrome saying `The code has already been injected - aborting!`
+
 A: You probably double-clicked the bookmarklet.  If you are certain that this is not the case, you can replace `if (document.getElementById("point_blank_bsod_edition_header") === null){` with `if(true){` in the bookmarklet source and build it yourself to patch out this check.
 
+-----
+
 Q: Will this work for (insert other Chrome/Edge extension)?
+
 A: If you can find a suitable entrypoint on your own, the bookmarklet should work.  The entrypoint, of course, will not.
 
+-----
+
 Q: I'm a sysadmin and I don't want people in my organisation using this.
+
 A: If you use Securly, don't.  People in your organisation will no longer have an incentive to use this.
 
+-----
+
 Q: I work for Securly and I don't want your code to break our extension!
+
 A: I refer you to the reply given in Arkell v Pressdram.  Also, George Orwell called and he wants his telescreens back.
 
+-----
+
 Q: I work for Securly and the above answer was not enough for me.
+
 A: I missed the part where thats my problem.
 
+-----
+
 Q: I work for Securly and I am still asking questions!
+
 A: Have you considered that 1984 was a warning, not a how to guide?  People deserve privacy.
